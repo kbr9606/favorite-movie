@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    width: 100%; height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'yg-jalnan';
+    background: #F4F4F4;
+}
+
+.box {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.title {
+    text-align: center;
+    color: #557571;
+}
+
+.movies {
+    width: 1200px; height: 420px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie {
+    width: 280px; height: 420px;
+    border: none;
+    background: none;
+}
+
+.poster {
+    width: 280px; height: 420px;
+    cursor: pointer;
+}
+
+.poster:hover {
+    opacity: 0.6;
+}
+
+.info {
+    margin: 40px 60px;
+}
+
+.mvTitle {
+    color: #D49A89;
+}
+
+.genre, .year, .story {
+    color: #ccb1a0;
+}
